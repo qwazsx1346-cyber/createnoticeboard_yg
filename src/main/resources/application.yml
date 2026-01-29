@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        url: #접속정보
+        username: #아이디
+        password: #비밀번호
+
+mybatis:
+    mapper-locations: mappers/**/*.xml
