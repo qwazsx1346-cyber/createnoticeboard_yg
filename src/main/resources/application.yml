@@ -1,8 +1,10 @@
 spring:
-    datasource:
-        url: #접속정보
-        username: #아이디
-        password: #비밀번호
+    application:
+        name: createnoticeboard_yg # 프로젝트 이름
+    datasource: #데이터베이스 접속정보
+        url: jdbc:mysql://localhost:3306/createnotice #젤뒤에 붙은 이름은 DB테이블명과 동일
+        username: root
+        password: green502
 
 mybatis:
-    mapper-locations: mappers/**/*.xml
+    mapper-locations: mappers/**/*.xml #xml파일위치. mappers폴더 아래에/어떤 폴더가 있어도 상관없고/ .xml로 끝나는 모든 파일

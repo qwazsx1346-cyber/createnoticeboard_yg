@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.createnoticeboard_yg.application.MemoMapper">
+<!--여기에 CRUD문 작성,id값 이름은 MomoMapper에 호출함수 이름과 동일해야함 (인터페이스에 있는 메소드와 연결. 메소드명은 id랑 같다 라는 말) -->
+</mapper>
