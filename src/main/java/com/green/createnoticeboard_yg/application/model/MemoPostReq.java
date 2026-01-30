@@ -11,5 +11,4 @@ import lombok.ToString;
 public class MemoPostReq {
     private String title;
     private String contents;
-
 }
